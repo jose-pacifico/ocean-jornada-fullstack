@@ -1,0 +1,26 @@
+.card {
+    border: 1px solid black;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #F0F0F0;
+    width: 300px;
+    transition: all ease-in-out 150ms;
+  }
+  
+  .card:hover{
+    box-shadow: 4px 4px black;
+    translate: -2px, -2px;
+    cursor: pointer;
+  
+  }
+  
+  .card > h1{
+    border-left: 8px solid rgb(38, 134, 186);
+    padding-left: 16px;
+  }
+  
+  .card > img{
+    max-width: 100%;
+    border-radius: 16px;
+  }
